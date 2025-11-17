@@ -9,7 +9,7 @@ namespace module1
             
             while(true)
             {
-                Console.WriteLine("Welcome to jakes area of a shape claculator!");
+                Console.WriteLine("Welcome to Jake's area of a shape calculator!");
                 Console.WriteLine("");
                 Console.WriteLine("Choose a shape to calculate its area we can do");
                 Console.WriteLine("1. Circles");
@@ -63,7 +63,7 @@ namespace module1
             }
             else
             {
-                //reponce if not vaid
+                //response if not valid
                 Console.WriteLine("Invalid input. Please enter a numeric value.");
             }
         }
@@ -87,7 +87,7 @@ namespace module1
             }
             else
             {
-                //reponce if not vaid
+                //response if not valid
                 Console.WriteLine("Invalid input. Please enter a numeric value.");
             }
 
@@ -95,13 +95,13 @@ namespace module1
             double height2;
             if (double.TryParse(height, out height2))
             {
-                //math if valid imput
+                //math if valid input
                 double area = bottom * height2 / 2;
                 Console.WriteLine($"The area of the triangle is: {area}in²");
             }
             else
             {
-                //reponce if not vaid
+                //response if not valid
                 Console.WriteLine("Invalid input. Please enter a numeric value.");
             }
             
@@ -109,7 +109,7 @@ namespace module1
 
         public static void RectangleArea()
         {
-            //take user imput
+            //take user input
             Console.Write("enter the length of the Rectangle in inches: ");
             string length = Console.ReadLine();
 
@@ -124,7 +124,7 @@ namespace module1
             }
             else
             {
-                //reponce if not vaid
+                //response if not valid
                 Console.WriteLine("Invalid input. Please enter a numeric value.");
             }
 
@@ -132,13 +132,13 @@ namespace module1
             double width2;
             if (double.TryParse(width, out width2))
             {
-                //math if valid imput
+                //math if valid input
                 double area = length2 * width2;
                 Console.WriteLine($"The area of the Rectangle is: {area}in²");
             }
             else
             {
-                //reponce if not vaid
+                //response if not valid
                 Console.WriteLine("Invalid input. Please enter a numeric value.");
             }
 
@@ -146,7 +146,7 @@ namespace module1
         }
         public static void SquareArea()
         {
-            //take user imput
+            //take user input
             Console.Write("Enter the radius of the circle in inches: ");
             string input = Console.ReadLine();
 
@@ -154,13 +154,13 @@ namespace module1
             double side;
             if (double.TryParse(input, out side))
             {
-                //math if valid imput
+                //math if valid input
                 double area = side * side;
                 Console.WriteLine($"The area of the square is: {area}in²");
             }
             else
             {
-                //reponce if not vaid
+                //response if not valid
                 Console.WriteLine("Invalid input. Please enter a numeric value.");
             }
         }
