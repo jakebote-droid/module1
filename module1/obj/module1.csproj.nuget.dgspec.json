@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jakeb\\RiderProjects\\module1\\module1\\module1.csproj": {}
+    "C:\\Users\\jakeb\\OneDrive\\Desktop\\repos\\module1\\module1\\module1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jakeb\\RiderProjects\\module1\\module1\\module1.csproj": {
+    "C:\\Users\\jakeb\\OneDrive\\Desktop\\repos\\module1\\module1\\module1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jakeb\\RiderProjects\\module1\\module1\\module1.csproj",
+        "projectUniqueName": "C:\\Users\\jakeb\\OneDrive\\Desktop\\repos\\module1\\module1\\module1.csproj",
         "projectName": "module1",
-        "projectPath": "C:\\Users\\jakeb\\RiderProjects\\module1\\module1\\module1.csproj",
+        "projectPath": "C:\\Users\\jakeb\\OneDrive\\Desktop\\repos\\module1\\module1\\module1.csproj",
         "packagesPath": "C:\\Users\\jakeb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jakeb\\RiderProjects\\module1\\module1\\obj\\",
+        "outputPath": "C:\\Users\\jakeb\\OneDrive\\Desktop\\repos\\module1\\module1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
